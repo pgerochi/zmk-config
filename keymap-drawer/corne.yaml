@@ -85,6 +85,6 @@ layers:
   - LGUI
   - {t: ▽, type: trans}
   - SPACE
-  - {t: RET, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - RALT

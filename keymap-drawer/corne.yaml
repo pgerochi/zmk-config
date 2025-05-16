@@ -22,11 +22,11 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - RGB TOG
-  - RGB COLOR HSB(306,50,51)
-  - '&bl BL_TOG'
-  - '['
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP ARROW
+  - RIGHT
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -36,8 +36,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '='
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - DOWN ARROW
   - {type: held}
   - LEFT ALT
   - SPACE
@@ -67,9 +67,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
-  - ;
-  - ''''
+  - '['
+  - ']'
+  - \
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,13 +78,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
-  - DOWN
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ;
+  - ''''
   - LGUI
   - {t: ▽, type: trans}
   - SPACE
   - {type: held}
-  - {t: ▽, type: trans}
+  - ENTER
   - RALT

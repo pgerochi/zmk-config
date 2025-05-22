@@ -1,0 +1,10 @@
+builds:
+  corne_left:
+    board: nice_nano_v2
+    config: ../zmk_split_confs/corne_left.conf
+    shield: corne_left
+  corne_right:
+    board: nice_nano_v2
+    config: ../zmk_split_confs/corne_right.conf
+    shield: corne_right
+include: []

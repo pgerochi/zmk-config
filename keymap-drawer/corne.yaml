@@ -40,8 +40,8 @@ layers:
   - /
   - {type: held}
   - LEFT ALT
-  - SPACE
   - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
   - RALT
@@ -82,8 +82,8 @@ layers:
   - DOWN
   - RIGHT
   - ''
-  - LGUI
   - {t: ▽, type: trans}
+  - LEFT SHIFT
   - SPACE
   - {t: ▽, type: trans}
   - {t: ENTER, type: held}

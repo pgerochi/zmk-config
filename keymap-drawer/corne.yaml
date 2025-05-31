@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - BT CLR
+  - {t: CAPSLOCK, h: toggle}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -24,10 +24,12 @@ layers:
   - RGB TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP ARROW
-  - RIGHT
+  - '['
+  - ']'
+  - \
   - LSHFT
+  - VOLUME UP
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -35,9 +37,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DOWN ARROW
+  - /
   - {type: held}
   - LEFT ALT
   - SPACE
@@ -46,7 +46,7 @@ layers:
   - ENTER
   - RALT
   raise:
-  - TAB
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -67,9 +67,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
+  - UP ARROW
+  - ;
+  - ''''
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,10 +78,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
-  - ''''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
   - LGUI
   - {t: ▽, type: trans}
   - SPACE

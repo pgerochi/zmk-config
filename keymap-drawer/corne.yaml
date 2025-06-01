@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, B, LEFT CONTROL, LEFT GUI,
-    SPACE, ENTER, raise, RIGHT ALT]
+  default: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, lower, LEFT CONTROL, LEFT
+      GUI, SPACE, ENTER, raise, RIGHT ALT]
   lower:
   - '`'
   - '1'
@@ -38,7 +38,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
-  - {t: ▽, type: trans}
+  - {type: held}
   - LEFT ALT
   - LEFT SHIFT
   - {t: ▽, type: trans}

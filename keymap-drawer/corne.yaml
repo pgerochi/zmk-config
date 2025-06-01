@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LOWER, LEFT CONTROL, LEFT GUI,
+  BASE: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LOWER, LEFT CONTROL, LEFT COMMAND,
     SPACE, ENTER, RAISE, RIGHT ALT]
   LOWER:
   - '`'

@@ -41,8 +41,8 @@ layers:
   - {type: held}
   - LEFT ALT
   - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
+  - ENTER
   - ENTER
   - RALT
   RAISE:

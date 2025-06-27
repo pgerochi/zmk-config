@@ -45,7 +45,7 @@
 &kp GRAVE     &kp N1           &kp N2             &kp N3        &kp N4          &kp N5          &kp N6           &kp N7     &kp N8    &kp N9            &kp N0             &kp MINUS
 &kt CAPSLOCK  &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_TOG  &trans     &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
 &kp LSHFT     &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans        &trans          &trans          &trans           &trans     &trans    &trans            &kp SLASH          &trans
-                                                  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans          &trans           &kp ENTER  &kp RALT
+                                                  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE       &kp ENTER        &kp ENTER  &kp RALT
             >;
         };
 

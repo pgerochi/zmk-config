@@ -10,6 +10,12 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    behaviors {
+        studio_unlock: studio_unlock {
+            compatible = "zmk,behavior-unlock-studio";
+        };
+    };
+
     layers {
         BASE = <0>;
         LOWER = <1>;

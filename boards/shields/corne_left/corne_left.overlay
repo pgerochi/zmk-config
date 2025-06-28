@@ -1,0 +1,20 @@
+/ {
+    chosen {
+        zmk,split-role = "left";
+    };
+};
+
+&i2c1 {
+    status = "okay";
+    ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        label = "SSD1306";
+        width = <128>;
+        height = <32>; // Change to <64> if your OLED is 64px tall
+        segment-offset = <0>;
+        page-offset = <0>;
+        // Uncomment and set correct pin if using a reset line:
+        // reset-gpios = <&gpio0 2 0>;
+    };
+};

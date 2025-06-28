@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LOWER, LCTRL, LGUI, SPACE, ENTER,
-    RAISE, RALT]
+  BASE: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, LOWER, LCTRL, SPACE, LOWER, RAISE,
+    ENTER, RALT]
   LOWER:
   - '`'
   - '1'
@@ -22,7 +22,7 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - RGB TOG
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -30,21 +30,21 @@ layers:
   - LSHFT
   - VOLUME UP
   - VOLUME DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+C
+  - Ctl+V
+  - Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
   - {type: held}
-  - LEFT ALT
-  - LEFT SHIFT
-  - SPACE
-  - ENTER
-  - ENTER
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   RAISE:
   - '`'
   - '!'
@@ -65,9 +65,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ;
   - ''''
   - LSHFT
@@ -76,15 +76,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - ''
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - SPACE
   - {t: ▽, type: trans}
-  - {t: ENTER, type: held}
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}

@@ -16,13 +16,13 @@ layers:
   - '0'
   - '-'
   - {t: CAPSLOCK, h: toggle}
-  - {t: BT, h: '0'}
+  - Gui+A
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - RGB TOG
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -30,8 +30,8 @@ layers:
   - LSHFT
   - VOLUME UP
   - VOLUME DOWN
-  - Ctl+C
-  - Ctl+V
+  - Gui+C
+  - Gui+V
   - Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - '='
-  - LCTRL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
